@@ -1,0 +1,49 @@
+/* {
+    border: 2px red solid;
+}*/
+
+body {
+    background-color: bisque;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+#recipes {
+    list-style: none;
+}
+
+#recipes a {
+    box-sizing: border-box;
+    color: rgb(255, 27, 27);
+    display: inline-block;
+    width: 300px;
+    padding: 0.4em;
+    margin: 0.1em;
+}
+
+#recipes a:hover {
+    background-color: aquamarine;
+}
+
+img,
+#recipes a,
+.title {
+    background-color: pink;
+}
+
+img {
+    padding: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.title {
+    box-sizing: border-box;
+    color: rgb(255, 27, 27);
+    font-size: 48px;
+    padding: 0.2em;
+    width: 440px;
+    margin: 0.7em auto;
+}
