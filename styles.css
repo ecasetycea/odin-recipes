@@ -10,11 +10,11 @@ body {
     text-align: center;
 }
 
-#recipes {
+#recipe-list {
     list-style: none;
 }
 
-#recipes a {
+#recipe-list a {
     box-sizing: border-box;
     color: rgb(255, 27, 27);
     display: inline-block;
@@ -23,12 +23,12 @@ body {
     margin: 0.1em;
 }
 
-#recipes a:hover {
+#recipe-list a:hover {
     background-color: aquamarine;
 }
 
 img,
-#recipes a,
+#recipe-list a,
 .title {
     background-color: pink;
 }
