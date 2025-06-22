@@ -1,0 +1,63 @@
+#home {
+    background-color: pink;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    color: rgb(255, 27, 27);
+    display: block;
+    margin: 1.3em auto;
+    font-size: 20px;
+    padding: 0.6em 1em;
+    width: 150px;
+}
+
+#home:hover {
+    background-color: aquamarine;
+}
+
+.title {
+    font-size: 36px;
+    width: 340px;
+}
+
+h2{
+    margin-bottom: 0.3em;
+    margin-top: 1.5em;
+}
+h4 {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+ul,
+ol {
+    margin: 0 1em 2em 1em;
+    text-align: left;
+}
+
+ul,
+ol li {
+    background-color: pink;
+    border-radius: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ol li {
+    margin-left: -2.5em;
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+
+.chef-notes {
+    border-top: 3px rgb(255, 27, 27) dashed;
+    padding-top: 0.75em;
+}
+
+.chef-notes *{
+    margin: 0;
+    padding-bottom: 1em;
+}

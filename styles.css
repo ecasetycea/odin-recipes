@@ -4,6 +4,7 @@
 
 body {
     background-color: bisque;
+    color: rgb(255, 27, 27);
     font-family: Helvetica, "Times New Roman", sans-serif;
     margin: 0 auto;
     max-width: 600px;
@@ -31,6 +32,7 @@ img,
 #recipe-list a,
 .title {
     background-color: pink;
+    border-radius: 0.5em;
 }
 
 img {
@@ -41,7 +43,6 @@ img {
 
 .title {
     box-sizing: border-box;
-    color: rgb(255, 27, 27);
     font-size: 48px;
     padding: 0.2em;
     width: 440px;
